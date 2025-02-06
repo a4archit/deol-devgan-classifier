@@ -82,7 +82,9 @@ def load_model_architecture():
 
 
     # loading model weights
-    model.load_weights('/workspaces/deol-devgan-classifier/model_sa2.weights.h5')
+    # model.load_weights('/workspaces/deol-devgan-classifier/model_sa2.weights.h5')
+    model.load_weights(os.path.join(os.getcwd(), "model_sa2.weights.h5"))
+
 
     return model
     
