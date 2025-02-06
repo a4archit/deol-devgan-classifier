@@ -82,7 +82,7 @@ def load_model_architecture():
 
 
     # loading model weights
-    model.load_weights('/home/archit-elitebook/workarea/whole working/deep learning/deol_vs_devgan_clf/model_sa1.weights.h5')
+    model.load_weights('/workspaces/deol-devgan-classifier/model_sa2.weights.h5')
 
     return model
     
