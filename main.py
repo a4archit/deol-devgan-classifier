@@ -51,7 +51,7 @@ def load_model_architecture():
     model = Sequential(name = "ajay_devgan_vs_sunny_deol")
 
     # first convolutional layer (input layer)
-    model.add(Conv2D(32, kernel_size=(3,3), padding='same', activation='relu', input_shape=(256, 256, 3)))
+    model.add(Conv2D(64, kernel_size=(3,3), padding='same', activation='relu', input_shape=(256, 256, 3)))
     model.add(MaxPool2D(pool_size=(2,2)))
     model.add(BatchNormalization())
 
@@ -74,7 +74,7 @@ def load_model_architecture():
     model.add(Flatten())
 
     # first fullyconnected layer
-    model.add(Dense(512, activation='relu'))
+    model.add(Dense(126, activation='relu'))
     model.add(Dropout(0.15))
 
     # output layer
