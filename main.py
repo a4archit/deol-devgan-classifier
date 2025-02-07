@@ -3,7 +3,7 @@ Deol Devgan Classifier
 ======================
     This project is build to classify the image of Sunny Deol and Ajay Devgan.
     This project is based on CNN neural networks.
-    There are only 29,881,601 (29.8 Millions) weights used in this model.
+    There are only around 15 Millions weights used in this model.
     For more information you should visit: https://www.github.com/a4archit
 """ 
 
