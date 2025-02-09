@@ -46,7 +46,7 @@ st.sidebar.write("[LinkedIn](https://www.linkedin.com/in/archit-tyagi-191323296)
 
 # creating function that build architecture and load trained parameters
 def load_model_architecture():
-
+    """ This function returns a trained model.  """
     # creating an instance of sequential class
     model = Sequential(name = "ajay_devgan_vs_sunny_deol")
 
@@ -94,6 +94,7 @@ def load_model_architecture():
 
 # this method will preprocess uploaded image and make sure image ready for prediction
 def preprocess_image(image_path: str, target_size=(256, 256)) :
+    """ This function returns an image which will suitable for prediction.  """
     # performing operation
     img = load_img(image_path, target_size=target_size)  # Load image
     img_array = img_to_array(img)  # Convert to array
