@@ -174,7 +174,7 @@ if __name__ == "__main__":
         output_markdown = f"##### According to my knowledge he is {prediction_label.title()}"
         st.markdown(output_markdown)
 
-        st.write("`*This model may be makes some mistakes on photo classification.*`")
+        st.write("`This model may be makes some mistakes on photo classification.`")
 
 
 
